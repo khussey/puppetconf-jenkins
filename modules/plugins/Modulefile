@@ -1,0 +1,10 @@
+name 'khussey-plugins'
+version '0.0.1'
+
+author 'khussey'
+license ''
+project_page ''
+source ''
+summary ''
+description ''
+dependency 'rtyler/jenkins', '>=0.2.3'

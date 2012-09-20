@@ -1,0 +1,5 @@
+name 'khussey-jenkins_server'
+version '0.0.0'
+
+dependency 'khussey/plugins', '>=0.0.1'
+dependency 'rtyler/jenkins', '>=0.2.3'
