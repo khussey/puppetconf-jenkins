@@ -21,7 +21,7 @@ class plugins {
   jenkins::plugin::install { 'github-api':
   }
   jenkins::plugin::install { 'github':
-    require => Jenkins::Plugin['git', 'github-api']
+    require => Jenkins::Plugin::Install['git', 'github-api']
   }
   jenkins::plugin::install { 'stackhammer':
   }
